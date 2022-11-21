@@ -29,8 +29,8 @@ while counter <= num_loop
             disp(['Going to create a network with L=',num2str(L),', K=',num2str(K),', N=',num2str(N),'...'])
             
             % Adding Harm's toolbox to create the network
-            addpath('C:\Users\Job\Dropbox\school 2019 2020\Blok 2 Internship\1. Received files\2. Harm rank reduced noise algorithm\toolbox') % access the path with the functions
-            addpath('C:\Users\Job\Dropbox\school 2019 2020\Blok 2 Internship\1. Received files\2. Harm rank reduced noise algorithm\simulations')
+            addpath('./toolbox') % access the path with the functions
+            addpath('./simulations')
             
             networkAccepted = false;
             while(networkAccepted == 0)
